@@ -1,0 +1,13 @@
+Cálculo com float e printf formatado
+
+#include <stdio.h>
+
+int main() {
+    float pi = 3.14;
+    float raio = 2.0031;
+    float area = 2 * pi * raio;
+
+    printf("Área = %5.3f\n", area);
+
+    return 0;
+}

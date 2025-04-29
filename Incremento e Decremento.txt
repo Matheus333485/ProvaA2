@@ -1,0 +1,16 @@
+Incremento e Decremento
+
+#include <stdio.h>
+
+int main() {
+    int a = 5, b = 3;
+    int c;
+
+    c = a++ + b;  // Pós-incremento: c = 5 + 3, depois a vira 6
+    printf("c = %d | a = %d | b = %d\n", c, a, b);
+
+    c = ++a + b;  // Pré-incremento: a vira 7, depois c = 7 + 3
+    printf("c = %d | a = %d | b = %d\n", c, a, b);
+
+    return 0;
+}
